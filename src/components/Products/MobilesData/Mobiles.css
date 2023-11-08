@@ -1,0 +1,36 @@
+.mobile img{
+    object-fit: cover;
+}
+.m_name{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 10px;
+    max-height: 10px;
+    text-align: justify;
+}
+.alignPriceMobiles,.alignBtnMobiles{
+    transform: translateX(100px);
+}
+@media only screen and (min-width:1px) and (max-width:576px){
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile img {
+        object-fit: cover;
+    }
+    .alignPriceMobiles,.alignBtnMobiles{
+        transform: translateX(0);
+    }
+    .m_name {
+        max-width: 300px;
+        min-width: 300px; 
+        max-height: none;
+        min-height: none;
+        margin-bottom:10px;
+    }
+    .details{
+        margin-left: 30px;
+    }
+}

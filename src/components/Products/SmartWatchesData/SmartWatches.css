@@ -1,0 +1,36 @@
+.smartwatch img{
+    object-fit: cover;
+}
+.alignPriceSmartWatches,.alignBtnSmartWatches{
+    transform: translateX(100px);
+}
+.sw_name{
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 60px;
+    min-height: 60px;
+    text-align: justify;
+}
+@media only screen and (min-width:1px) and (max-width:576px){
+    .smartwatch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .smartwatch img {
+        object-fit: cover;
+    }
+    .alignPriceSmartWatches,.alignBtnSmartWatches{
+        transform: translateX(0);
+    }
+    .sw_name {
+        max-width: 300px;
+        min-width: 300px; 
+        max-height: none;
+        min-height: none;
+        margin-bottom:10px;
+    }
+    .details{
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,40 @@
+.television img{
+    min-width: 400px;
+    min-height: 300px;
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+}
+.t_name{
+    max-width: 400px;
+    max-height: 60px;
+    min-width: 400px;
+    min-height: 60px;
+    text-align: justify;
+}
+.alignPriceTelevisions,.alignBtnTelevisions{
+    transform: translateX(100px);
+}
+@media only screen and (min-width:1px) and (max-width:576px){
+    .television{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .television img {
+        object-fit: cover;
+    }
+    .alignPriceTelevisions,.alignBtnTelevisions{
+        transform: translateX(0);
+    }
+    .t_name {
+        max-width: 300px;
+        min-width: 300px; 
+        max-height: none;
+        min-height: none;
+        margin-bottom:10px;     
+    }
+    .details{
+        margin-left: 30px;
+    }
+}

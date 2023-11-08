@@ -1,0 +1,12 @@
+.gender input[type="radio"]{
+    margin-left: 10px;
+}
+.Register{
+    height: 80vh;
+}
+.mobile input[type="tel"] {
+    width: 100%; 
+}
+.mobile label{
+    width: 100%;
+}
